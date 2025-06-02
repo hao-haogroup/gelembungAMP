@@ -1427,9 +1427,25 @@
 
       }
    </style>
+   <!-- Wajib untuk mendukung <amp-analytics> -->
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 </head>
 
 <body>
+   <amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+    {
+      "vars": {
+        "gtag_id": "G-KCM0Y6EE6R",
+        "config": {
+          "G-KCM0Y6EE6R": { "groups": "default" }
+        }
+      }
+    }
+  </script>
+</amp-analytics>
+
    <main>
 
       <ul class="bubbles">
